@@ -3,6 +3,7 @@ const router = express.Router();
 const axios = require('axios')
 const NodeGeocoder = require('node-geocoder')
 const key = process.env.KEY
+const date = require('../utils/Date')
 
 const Address = require('./models/Address')
 
@@ -18,18 +19,34 @@ router.get('/location',(req,res)=>{
   axios.get(url)
   .then(response=>{return response})
   .then((response)=>{
-    
-    return res.status(200).send(response.data.results[0].annotations.DMS)
+    let lat = response.data.results[0].annotations.DMS.lat
+    let lng = response.data.results[0].annotations.DMS.lng 
+    let coordinates = []
+    coordinates.push(lat)
+    coordinates.push(lng)
+    return coordinates
+    // return res.status(200).send(response.data.results[0].annotations.DMS)
 
-  })
+  }).then((coordinates)=>{
+    const crimeUrl = `https://api.crimeometer.com/v1/incidents/raw-data?${coordinates[0]}=lat&lon=${coordinates[1]}&distance=miles&datetime_ini=${date()}&datetime_end=${new Date().toISOString()}&page=${1}`
+
+    axios.get(crimeUrl,{
+      headers:{
+        'Content-Type':'application/json',
+        'x-api-key':'cVJyFAPjhlad8TKGCwCMy7tezIePWi1dIRIP5UG1'
+      }
+    }).then((crime)=>{
+      return console.log(crime.data)
+    }).catch(err=>console.log(err))
+  }).catch(err=>console.log(err))
 })
 
 //get all addresses
-router.get('/location',(req,res)=>{
-  Address.find({}).then((address)=>{
-    return res.send(address)
-  })
-})
+// router.get('/location',(req,res)=>{
+//   Address.find({}).then((address)=>{
+//     return res.send(address)
+//   })
+// })
 
 
 //save an address 
