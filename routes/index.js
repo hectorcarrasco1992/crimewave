@@ -5,7 +5,7 @@ const NodeGeocoder = require('node-geocoder')
 const key = process.env.KEY
 const date = require('../utils/Date')
 
-const Address = require('./models/Address')
+const Crime = require('./models/Crime')
 
 
 /* GET home page. */
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
   res.json({message:'hello world'});
 });
 //get single longitude and latitude
-router.get('/location',(req,res)=>{
+router.get('/crime',(req,res)=>{
   const address = req.body.address 
   const url = `https://api.opencagedata.com/geocode/v1/json?q=${address}&key=${key}`
   axios.get(url)
@@ -38,7 +38,7 @@ router.get('/location',(req,res)=>{
         'x-api-key':'cVJyFAPjhlad8TKGCwCMy7tezIePWi1dIRIP5UG1'
       }
     }).then((crime)=>{
-      return console.log(crime.data)
+      return res.json(crime.data)
     }).catch(err=>console.log(err))
   }).catch(err=>console.log(err))
 })
@@ -53,10 +53,10 @@ router.get('/location',(req,res)=>{
 
 //save an address 
 router.post('/location',(req,res)=>{
-  Address.findById({id:_id}).then((address)=>{
+  Crime.findById({id:_id}).then((crime)=>{
     if(address) return res.status(418).json({message:'address is already on file'})
-    const newAddress = new Address
-    newAddress.address = req.body.address
+    const crime = new Crime
+    newAddress.crime = req.body.address
     newAddress.save()
 
     return res.status(200).json({message:'address saved'})
