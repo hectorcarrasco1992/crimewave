@@ -19,16 +19,18 @@ router.get('/location',(req,res)=>{
   axios.get(url)
   .then(response=>{return response})
   .then((response)=>{
-    let lat = response.data.results[0].annotations.DMS.lat
-    let lng = response.data.results[0].annotations.DMS.lng 
+    let lat = response.data.results[0].geometry.lat
+    let lng = response.data.results[0].geometry.lng 
     let coordinates = []
     coordinates.push(lat)
     coordinates.push(lng)
+    console.log(coordinates)
     return coordinates
     // return res.status(200).send(response.data.results[0].annotations.DMS)
 
   }).then((coordinates)=>{
-    const crimeUrl = `https://api.crimeometer.com/v1/incidents/raw-data?${coordinates[0]}=lat&lon=${coordinates[1]}&distance=miles&datetime_ini=${date()}&datetime_end=${new Date().toISOString()}&page=${1}`
+    const crimeUrl = `https://api.crimeometer.com/v1/incidents/raw-data?lat=${coordinates[0]}&lon=${coordinates[1]}&distance=10mi&datetime_ini=${date()}&datetime_end=${new Date().toISOString()}&page=${1}`
+    // const crimeUrl = `https://api.crimeometer.com/v1/incidents/raw-data?lat=36.47016&lon=10.47744&distance=10mi&datetime_ini=${date()}&datetime_end=${new Date().toISOString()}&page=${1}`
 
     axios.get(crimeUrl,{
       headers:{

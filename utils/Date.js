@@ -2,7 +2,7 @@ const getDate = ()=>{
 const today = new Date()
 const yesterday = new Date(today)
 
-yesterday.setDate(yesterday.getDate() - 1)
+yesterday.setDate(yesterday.getDate() - 365)
 
 today.toDateString()
 yesterday.toDateString()
