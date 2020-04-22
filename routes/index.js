@@ -35,18 +35,21 @@ router.post('/crime',(req,res)=>{
     axios.get(crimeUrl,{
       headers:{
         'Content-Type':'application/json',
-        'x-api-key':'cVJyFAPjhlad8TKGCwCMy7tezIePWi1dIRIP5UG1'
+        'x-api-key':'k3RAzKN1Ag14xTPlculT39RZb38LGgsG8n27ZycG'
       }
     }).then((crime)=>{
-      Crimes.findById({id:_id}).then((results)=>{
+      Crimes.find({}).then((results)=>{
         if(results){
           return res.status(418).json({message:'crime is already on file'})
-        } 
-        const newCrime = new Crimes
-        newCrime.crime = crime.data.incidents[Math.floor(Math.random() * 10)].incident_offense
-        newCrime.description = crime.data.incidents[Math.floor(Math.random() * 10)].incident_offense_description
-        newCrime.save()
-    
+        } else{
+          console.log(crime.data.incidents[0].incident_offense)
+
+          const newCrime = new Crimes
+          newCrime.crime = crime.data.incidents[0].incident_offense
+          // newCrime.description = crime.data.incidents[0].incident_offense_description
+          newCrime.save()
+        }
+          
         return res.send(newCrime)
       })
      }).catch(err=>console.log(err))
