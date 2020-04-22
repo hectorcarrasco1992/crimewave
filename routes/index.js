@@ -55,8 +55,9 @@ router.get('/crime',(req,res)=>{
 router.post('/location',(req,res)=>{
   Crime.findById({id:_id}).then((crime)=>{
     if(address) return res.status(418).json({message:'address is already on file'})
-    const crime = new Crime
-    newAddress.crime = req.body.address
+    const newCrime = new Crime
+    newCrime.crime = req.body.crime
+    newCrime.description = sreq.body.description
     newAddress.save()
 
     return res.status(200).json({message:'address saved'})
