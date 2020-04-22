@@ -17,7 +17,7 @@ router.post('/crime',(req,res)=>{
   const address = req.body.address 
   const url = `https://api.opencagedata.com/geocode/v1/json?q=${address}&key=${key}`
   axios.get(url)
-  .then(response=>{return response})
+  .then((response)=>{return response})
   .then((response)=>{
     let lat = response.data.results[0].geometry.lat
     let lng = response.data.results[0].geometry.lng 
@@ -52,7 +52,7 @@ router.post('/crime',(req,res)=>{
      }).catch(err=>console.log(err))
     
   }).catch(err=>console.log(err))
-}
+})
 
 
 
