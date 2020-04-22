@@ -5,4 +5,4 @@ const Crimes = new mongoose.Schema({
     description:{type:String,trim:true}
 })
 
-module.exports = mongoose.model('crime',Crime)
+module.exports = mongoose.model('crime',Crimes)

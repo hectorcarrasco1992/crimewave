@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios')
-const NodeGeocoder = require('node-geocoder')
+
 const key = process.env.KEY
 const date = require('../utils/Date')
 
-const Crime = require('./models/Crime')
+const Crimes = require('./models/Crime')
 
 
 /* GET home page. */
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
   res.json({message:'hello world'});
 });
 //get single longitude and latitude
-router.get('/crime',(req,res)=>{
+router.post('/crime',(req,res)=>{
   const address = req.body.address 
   const url = `https://api.opencagedata.com/geocode/v1/json?q=${address}&key=${key}`
   axios.get(url)
@@ -38,35 +38,40 @@ router.get('/crime',(req,res)=>{
         'x-api-key':'cVJyFAPjhlad8TKGCwCMy7tezIePWi1dIRIP5UG1'
       }
     }).then((crime)=>{
-      return res.json(crime.data)
-    }).catch(err=>console.log(err))
+      Crimes.findById({id:_id}).then((results)=>{
+        if(results){
+          return res.status(418).json({message:'crime is already on file'})
+        } 
+        const newCrime = new Crimes
+        newCrime.crime = crime.data.incidents[Math.floor(Math.random() * 10)].incident_offense
+        newCrime.description = crime.data.incidents[Math.floor(Math.random() * 10)].incident_offense_description
+        newCrime.save()
+    
+        return res.send(newCrime)
+      })
+     }).catch(err=>console.log(err))
+    
   }).catch(err=>console.log(err))
-})
+}
 
-//get all addresses
-// router.get('/location',(req,res)=>{
-//   Address.find({}).then((address)=>{
-//     return res.send(address)
+
+
+
+// router.post('/location',(req,res)=>{
+//   Crimes.findById({id:_id}).then((crime)=>{
+//     if(crime) return res.status(418).json({message:'address is already on file'})
+//     const newCrime = new Crime
+//     newCrime.crime = req.body.crime
+//     newCrime.description = req.body.description
+//     newAddress.save()
+
+//     return res.status(200).json({message:'address saved'})
+//   }).catch(err=>{
+//     console.log(err)
+//     return res.status(418).json({error:'address not saved'})
 //   })
 // })
 
 
-//save an address 
-router.post('/location',(req,res)=>{
-  Crime.findById({id:_id}).then((crime)=>{
-    if(address) return res.status(418).json({message:'address is already on file'})
-    const newCrime = new Crime
-    newCrime.crime = req.body.crime
-    newCrime.description = sreq.body.description
-    newAddress.save()
 
-    return res.status(200).json({message:'address saved'})
-  }).catch(err=>{
-    console.log(err)
-    return res.status(418).json({error:'address not saved'})
-  })
-})
-
-
-
-module.exports = router;
+module.exports = router
