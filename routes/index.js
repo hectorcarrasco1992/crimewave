@@ -38,21 +38,16 @@ router.post('/crime',(req,res)=>{
         'x-api-key':'k3RAzKN1Ag14xTPlculT39RZb38LGgsG8n27ZycG'
       }
     }).then((crime)=>{
-      Crimes.find({}).then((results)=>{
-        if(results){
-          return res.status(418).json({message:'crime is already on file'})
-        } else{
-          console.log(crime.data.incidents[0].incident_offense)
-
-          const newCrime = new Crimes
-          newCrime.crime = crime.data.incidents[0].incident_offense
-          // newCrime.description = crime.data.incidents[0].incident_offense_description
-          newCrime.save()
-        }
+      console.log(crime.data)
+      // const newCrime = new Crimes
+      // newCrime.crime = crime.data.incidents[0].incident_offense
+      
+      // newCrime.save()
+      // return res.send(newCrime)
+    }).catch(err=>console.log(err))
           
-        return res.send(newCrime)
-      })
-     }).catch(err=>console.log(err))
+      
+    //  }).catch(err=>console.log(err))
     
   }).catch(err=>console.log(err))
 })

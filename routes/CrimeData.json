@@ -1,0 +1,768 @@
+[
+
+    {   "city_key":"NYC",
+        "incident_date": "2019-12-31T21:20:00.000Z",
+        "incident_offense": "All Other Offenses",
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7014856,
+        "incident_longitude": -73.807906
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "687312529-17",
+        "incident_date": "2019-12-31T21:20:00.000Z",
+        "incident_offense": "Larceny/Theft Offenses",
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7444582,
+        "incident_longitude": -73.973028
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "489515514-1",
+        "incident_date": "'2019-12-31T21:20:00.000Z'",
+        "incident_offense": "Larceny/Theft Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7097235,
+        "incident_longitude": -74.006746
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "770310054-75",
+        "incident_date": "2019-12-31T21:18:00.000Z",
+        "incident_offense": "Destruction/Damage/Vandalism of Property",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6789853,
+        "incident_longitude": -73.864881
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "868847275-75",
+        "incident_date": "2019-12-31T21:18:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6789853,
+        "incident_longitude": -73.864881
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "277792279-10",
+        "incident_date": "2019-12-31T21:15:00.000Z",
+        "incident_offense": "Destruction/Damage/Vandalism of Property",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7014856,
+        "incident_longitude": -73.807906
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "609773537-79",
+        "incident_date": "2019-12-31T21:10:00.000Z",
+        "incident_offense": "Drug/Narcotic Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6957917,
+        "incident_longitude": -73.939095
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "237817489-14",
+        "incident_date": "2019-12-31T21:10:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.750999,
+        "incident_longitude": -73.990624
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "667667245-77",
+        "incident_date": "2019-12-31T21:05:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6771486,
+        "incident_longitude": -73.924281
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "396622005-70",
+        "incident_date": "2019-12-31T21:05:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6520008,
+        "incident_longitude": -73.963231
+    
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "503330903-73",
+        "incident_date": "2019-12-31T21:00:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6605268,
+        "incident_longitude": -73.917156
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "744064147-76",
+        "incident_date": "2019-12-31T20:55:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6746236,
+        "incident_longitude": -74.003985
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "775442420-11",
+        "incident_date": "2019-12-31T20:50:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.6874783,
+        "incident_longitude": -73.794778
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "107938700-11",
+        "incident_date": "2019-12-31T20:48:00.000Z",
+        "incident_offense": "To Review",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7606267,
+        "incident_longitude": -73.936091
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "679222534-18",
+        "incident_date": "2019-12-31T20:45:00.000Z",
+        "incident_offense": "All Other Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.765024,
+        "incident_longitude": -73.984835
+        
+    },
+    {
+        "city_key": "NYC",
+        "incident_code": "860180841-11",
+        "incident_date": "2019-12-31T20:45:00.000Z",
+        "incident_offense": "Assault Offenses",
+        
+        
+        "incident_source_name": "NewYork_Police_Department",
+        "incident_latitude": 40.7741062,
+        "incident_longitude": -73.931431
+        
+    },
+    {
+    
+    "city_key": "NYC",
+    "incident_code": "666601975-63",
+    "incident_date": "2019-12-31T20:41:00.000Z",
+    
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6197603,
+    "incident_longitude": "-73.915902"
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "345919783-19",
+    "incident_date": "2019-12-31T20:33:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7628095,
+    "incident_longitude": -73.962747
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "713258352-18",
+    "incident_date": "2019-12-31T20:30:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7633836,
+    "incident_longitude": -73.99646
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "156990508-10",
+    "incident_date": "2019-12-31T20:30:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7392518,
+    "incident_longitude": -73.999185
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "670003142-75",
+    "incident_date": "2019-12-31T20:30:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6574987,
+    "incident_longitude": -73.893066
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "603614714-11",
+    "incident_date": "2019-12-31T20:24:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7594505,
+    "incident_longitude": -73.933576
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "381634475-9",
+    "incident_date": "2019-12-31T20:20:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7205054,
+    "incident_longitude": -73.976025
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "598306623-9",
+    "incident_date": "2019-12-31T20:20:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7205054,
+    "incident_longitude": -73.976025
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "501972580-79",
+    "incident_date": "2019-12-31T20:15:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6955489,
+    "incident_longitude": -73.947787
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "536911423-62",
+    "incident_date": "2019-12-31T20:15:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6209956,
+    "incident_longitude": -73.990127
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "947831880-10",
+    "incident_date": "2019-12-31T20:10:00.000Z",
+    "incident_offense": "Fraud Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6710499,
+    "incident_longitude": -73.843037
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "105845203-12"',
+    "incident_date": "2019-12-31T20:00:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6334867,
+    "incident_longitude": -74.163427
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "143739108-14",
+    "incident_date": "2019-12-31T20:00:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7514498,
+    "incident_longitude": -73.97605
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "598689436-25",
+    "incident_date": "2019-12-31T20:00:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.8046945,
+    "incident_longitude": -73.938158
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "753660510-28",
+    "incident_date": "2019-12-31T19:55:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.8083741,
+    "incident_longitude": -73.946885
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "482433225-71",
+    "incident_date": "2019-12-31T19:46:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6600366,
+    "incident_longitude": -73.960602
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "211757327-63",
+    "incident_date": "2019-12-31T19:40:00.000Z",
+    "incident_offense": "To Review",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6178512,
+    "incident_longitude": -73.925749
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "239330857-10",
+    "incident_date": "2019-12-31T19:40:00.000Z",
+    "incident_offense": "Robbery",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7437724,
+    "incident_longitude": -73.995887
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "570358827-19",
+    "incident_date": "2019-12-31T19:31:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.777513,
+    "incident_longitude": -73.954947
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "637098332-70",
+    "incident_date": "2019-12-31T19:30:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6415159,
+    "incident_longitude": -73.963777
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "314152202-11",
+    "incident_date": "2019-12-31T19:30:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7565675,
+    "incident_longitude": -73.875931
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "125408645-11",
+    "incident_date": "2019-12-31T19:25:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7501053,
+    "incident_longitude": -73.874904
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "223109365-75",
+    "incident_date": "2019-12-31T19:20:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6791625,
+    "incident_longitude": -73.895263
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "122901056-79",
+    "incident_date": "2019-12-31T19:20:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6995909,
+    "incident_longitude": -73.951779
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "603369305-68",
+    "incident_date": "2019-12-31T19:00:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6239192,
+    "incident_longitude": -74.003675
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "260765783-11",
+    "incident_date": "2019-12-31T19:00:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7565552,
+    "incident_longitude": -73.867301
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "640959001-70",
+    "incident_date": "2019-12-31T19:00:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6504671,
+    "incident_longitude": -73.957267
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "747691538-1",
+    "incident_date": "2019-12-31T19:00:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7203954,
+    "incident_longitude": -74.001044
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "361007286-10",
+    "incident_date": "2019-12-31T19:00:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.700349,
+    "incident_longitude": -73.904278
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "385916718-9",
+    "incident_date": "2019-12-31T18:55:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7250018,
+    "incident_longitude": -73.978195
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "927740535-14",
+    "incident_date": "2019-12-31T18:50:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7484399,
+    "incident_longitude": -73.982472
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "353873497-75",
+    "incident_date": "2019-12-31T18:50:00.000Z",
+    "incident_offense": "Robbery",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6772537,
+    "incident_longitude": -73.872369
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "677910085-83",
+    "incident_date": "2019-12-31T18:50:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6923867,
+    "incident_longitude": -73.915129
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "890156626-90",
+    "incident_date": "2019-12-31T18:40:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7115687,
+    "incident_longitude": -73.944755
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "921554137-10",
+    "incident_date": "2019-12-31T18:30:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6832758,
+    "incident_longitude": -73.845554
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "625695822-10",
+    "incident_date": "2019-12-31T18:30:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6770075,
+    "incident_longitude": -73.819643
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "957500193-10"',
+    "incident_date": "2019-12-31T18:30:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6776052,
+    "incident_longitude": -73.828218
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "982114935-60",
+    "incident_date": "2019-12-31T18:30:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.5799887,
+    "incident_longitude": -74.002726
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "200978596-14",
+    "incident_date": "2019-12-31T18:25:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7572405,
+    "incident_longitude": -73.989793
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "424931078-68",
+    "incident_date": "2019-12-31T18:20:00.000Z",
+    "incident_offense": "All Other Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6145068,
+    "incident_longitude": -74.037392
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "187622652-1",
+    "incident_date": "2019-12-31T18:15:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7236369,
+    "incident_longitude": -73.998298
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "546624797-20",
+    "incident_date": "2019-12-31T18:15:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.778805,
+    "incident_longitude": -73.982059
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "405855157-9",
+    "incident_date": "2019-12-31T18:15:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7239967,
+    "incident_longitude": -73.975815
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "931172454-9",
+    "incident_date": "2019-12-31T18:15:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7239967,
+    "incident_longitude": -73.975815
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "234345201-66",
+    "incident_date": "2019-12-31T18:15:00.000Z",
+    "incident_offense": "Larceny/Theft Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6429167,
+    "incident_longitude": -73.978633
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "709770202-14",
+    "incident_date": "2019-12-31T18:10:00.000Z",
+    "incident_offense": "Sex Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7539389,
+    "incident_longitude": -73.994843
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "755391615-63",
+    "incident_date": "2019-12-31T18:10:00.000Z",
+    "incident_offense": "Destruction/Damage/Vandalism of Property",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.6251243,
+    "incident_longitude": -73.909588
+    
+},
+{
+    "city_key": "NYC",
+    "incident_code": "665331020-13",
+    "incident_date": "2019-12-31T18:00:00.000Z",
+    "incident_offense": "Assault Offenses",
+    
+    
+    "incident_source_name": "NewYork_Police_Department",
+    "incident_latitude": 40.7377416,
+    "incident_longitude": -73.988158
+    
+}
+
+
+]
