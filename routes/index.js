@@ -22,6 +22,12 @@ router.post('/crime',(req,res)=>{
   return res.send(newCrime)
     })
 
+    router.get('/crimes',(req,res)=>{
+      Crimes.find({}).then((crimes)=>{
+        return res.json(crimes)
+      })
+    })
+
 
 
 
