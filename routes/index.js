@@ -28,6 +28,14 @@ router.post('/crime',(req,res)=>{
       })
     })
 
+    router.delete('/crime/:id', (req, res) => {
+      Crimes.findByIdAndDelete({ _id: req.params.id }).then(
+        res.json({ message: 'deleted' })
+      );
+    });
+
+
+
 
 
 
