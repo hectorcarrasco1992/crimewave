@@ -34,6 +34,13 @@ router.post('/crime',(req,res)=>{
       );
     });
 
+    router.get('/number',(req,res)=>{
+      const url =  `http://numbersapi.com/${req.body.number}/trivia`
+      axios.get(url).then((results)=>{
+        return res.json(results.data)
+      }).catch(err=>console.log(err))
+    })
+
 
 
 
