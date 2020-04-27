@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios')
-let crimeData = require('./CrimeData.json')
+
 const {makeCrime,getAllCrimes,deleteCrime,getNumberTrivia} = require('./controller/controller')
 
 const key = process.env.KEY
-const date = require('../utils/Date')
 
-const Crimes = require('./models/Crime')
+
+
 
 
 /* GET home page. */
