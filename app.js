@@ -5,6 +5,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const bodyParser = require('body-parser')
 const cors = require('cors')
 
 require('dotenv').config()
@@ -26,6 +27,7 @@ mongoose.connect(process.env.MONGODB_URI,{
 }).catch(err=> console.log(`mongo error:${error}`))
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
 app.use(cors())
 app.use(logger('dev'));
 app.use(express.json());
